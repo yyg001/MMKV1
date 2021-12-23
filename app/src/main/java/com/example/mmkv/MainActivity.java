@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Button button1=findViewById(R.id.btn1);
         Button button2=findViewById(R.id.btn2);
         String rootDir = MMKV.initialize(this);
-        System.out.println("mmkv root1: " + rootDir);
+        System.out.println("mmkv root3: " + rootDir);
         // 获取默认的全局实例
         MMKV kv = MMKV.defaultMMKV();
         button1.setOnClickListener(new View.OnClickListener() {
